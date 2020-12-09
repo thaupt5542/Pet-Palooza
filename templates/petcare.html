@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Under Construction moving inline css to style.css-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Care</title>
+   
+    <link href={{ url_for('static', filename='style.css') }} rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+<nav style="height:50px; background-color:#64b8bd; display:flex; margin-botom:10px;">
+<ul style="text-align:right; padding:0; list-style:none; flex:2; display:flex;">
+    <li style="display:inline; text-align:center; flex:1;"><a href="/" style="display:inline-block; font-size:1em; text-transform:uppercase; text-decoration:none; color:black;">Home</a></li>
+    <li style="display:inline; text-align:center; flex:1;"><a href="/dogAPI" style="display:inline-block; font-size:1em; text-transform:uppercase; text-decoration:none; color:black;">Find Random Dog</a></li>
+    <li style="display:inline; text-align:center; flex:1;"><a href="/training" style="display:inline-block; font-size:1em; text-transform:uppercase; text-decoration:none; color:black;">Training Tips</a></li>
+    <li style="display:inline; text-align:center; flex:1;"><a href="/petcare" style="display:inline-block; font-size:1em; text-transform:uppercase; text-decoration:none; color:black;">Pet Care</a></li>
+    <li style="display:inline; text-align:center; flex:1;"><a href="/contact" style="display:inline-block; font-size:1em; text-transform:uppercase; text-decoration:none; color:black;">Contact</a></li>
+  </ul>
+
+    <form style="flex:1; display:flex; align-items:center; height:100%; padding: 0 2em;"> 
+         <input type="search" name="q" placeholder="Search query">
+         <input type="submit" value="Go!">
+       </form>
+       
+  </nav>
+
+ <h1 style="text-align:center;">Find the nearest hospital for veterinary care!</h1> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d48308.438710305185!2d-73.31459446768726!3d40.82186977488914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89e83a834effae57%3A0xba770d0858b50683!2sSmithtown%20Animal%20Hospital%2C%20891%20W%20Jericho%20Turnpike%2C%20Smithtown%2C%20NY%2011787!3m2!1d40.8479533!2d-73.2405411!5e0!3m2!1ses!2sus!4v1607381108013!5m2!1ses!2sus" width="600" height="450" frameborder="0" style="border:0; display:block; margin-left:auto; margin-right:auto;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+  <script src="script.js"></script>
+
+</body>
+
+<footer style="height:auto; background-color: #64b8bd;">
+    <h1 style="text-align:center;">Made by Theresa Haupt &#128021🤍&#128057</h1>
+  </footer>
+
+</html>
+

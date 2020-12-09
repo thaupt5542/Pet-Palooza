@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Under Construction moving inline css to style.css-->
+  <title>Document</title>
+</head>
+<body>
+<nav style="height:50px; background-color:#64b8bd; display:flex; margin-botom:10px;">
+<ul style="text-align:right; padding:0; list-style:none; flex:2; display:flex;">
+    <li style="display:inline; text-align:center; flex:1;"><a href="/" style="display:inline-block; font-size:1em; text-transform:uppercase; text-decoration:none; color:black;">Home</a></li>
+    <li style="display:inline; text-align:center; flex:1;"><a href="/dogAPI" style="display:inline-block; font-size:1em; text-transform:uppercase; text-decoration:none; color:black;">Find Random Dog</a></li>
+    <li style="display:inline; text-align:center; flex:1;"><a href="/training" style="display:inline-block; font-size:1em; text-transform:uppercase; text-decoration:none; color:black;">Training Tips</a></li>
+    <li style="display:inline; text-align:center; flex:1;"><a href="/petcare" style="display:inline-block; font-size:1em; text-transform:uppercase; text-decoration:none; color:black;">Pet Care</a></li>
+    <li style="display:inline; text-align:center; flex:1;"><a href="/contact" style="display:inline-block; font-size:1em; text-transform:uppercase; text-decoration:none; color:black;">Contact</a></li>
+  </ul>
+
+    <form style="flex:1; display:flex; align-items:center; height:100%; padding: 0 2em;"> 
+         <input type="search" name="q" placeholder="Search query">
+         <input type="submit" value="Go!">
+       </form>
+       
+  </nav>
+  
+<img src={{image}} style="display: block; height:600px; margin:70px; margin-left:auto; margin-right:auto; width:50%;">
+
+  <h1 style="text-align:center">If your pet was named: {{name}}, this could be what it looks like.</h1>
+
+<footer style="height:auto; background-color: #64b8bd;">
+    <h1 style="text-align:center;">Made by Theresa Haupt &#128021🤍&#128057</h1>
+  </footer>
+
+</body>
+</html>

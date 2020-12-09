@@ -1,0 +1,57 @@
+
+.item{
+  height:200px; 
+  border-radius: 50%; 
+  border: 10px solid #64b8bd; 
+  margin-top:80px;
+}
+
+nav{
+  height:50px; background-color:#64b8bd; display:flex; margin-botom:10px;
+}
+
+.header{
+  text-align:right; padding:0; list-style:none; flex:2; display:flex;"
+}
+
+.list{
+  display:inline; text-align:center; flex:1
+}
+
+ul li a{
+  display:inline-block; font-size:1em; text-transform:uppercase; text-decoration:none; color:black;
+}
+
+.nameq{
+  flex:1; display:flex; align-items:center; height:100%; padding: 0 2em;
+}
+
+.dogpic{
+  display: block; height:600px; margin:70px; margin-left:auto; margin-right:auto; width:50%;
+}
+
+footer{
+  height:auto; background-color: #64b8bd;
+}
+.formspree input{ 
+  display:block;
+  margin:20px auto; 
+  width:50%; 
+  height:30px;
+  }
+.formspree textarea{
+  display:block; margin:20px auto; width:50%; height:70px
+}
+.formspree button{
+  display:block; margin:20px auto; width:50%; height:30px; background-color: rgb(69, 230, 96);
+}
+
+
+
+
+
+
+
+
+/* Taken out of index.html
+<script type="text/javascript">writeRandomQuote();</script>*/

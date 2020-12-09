@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <!--Under Construction moving inline css to style.css-->
+<link rel="stylesheet" href={{ url_for('static', filename='style.css') }}>
+ <nav>
+<ul class="header">
+    <li class="lists"><a href="/">Home</a></li>
+    <li class="lists"><a href="/dogAPI">Find Random Dog</a></li>
+    <li class="lists"><a href="/training">Training Tips</a></li>
+    <li class="lists"><a href="/petcare">Pet Care</a></li>
+    <li class="lists"><a href="/contact">Contact</a></li>
+  </ul>
+
+    <form class="nameq"> 
+         <input type="search" name="q" placeholder="Search query">
+         <input type="submit" value="Go!">
+       </form>
+       
+  </nav>
+
+    <p style="text-align:center">Refresh page for a new dog image each time! Get an idea for what type of dog you might want. Also perfect for anyone looking for cute dog pictures.</p>
+
+    <img class="dogpic" src={{image}}>
+
+<footer>
+    <h1 style="text-align:center;">Made by Theresa Haupt &#128021🤍&#128057</h1>
+  </footer>
+  
+</html>
